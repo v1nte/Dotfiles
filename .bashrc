@@ -120,6 +120,9 @@ fi
 alias supdate='sudo apt update && sudo apt upgrade -y'
 alias sudi='sudo apt-get install -y'
 alias ts3='cd / && cd /opt/TeamSpeak3-Client-linux_amd64 && ./ts3client_runscript.sh'
+alias ..='cd ..'
+alias vim='nvim'
+
 figlet Hi, There!
 neofetch
 
