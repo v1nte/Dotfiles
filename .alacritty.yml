@@ -1,3 +1,17 @@
+font:
+  size: 13
+  normal:
+      family: UbuntuMono Nerd Font Mono
+      style: Regular
+
+  bold:
+      family: UbuntuMono Nerd Font Mono
+      style: Bold
+
+  italic:
+      family: UbuntuMono Nerd Font Mono
+      style: Italic
+
 # Colors (Molokai Dark)
 colors:
   # Default colors
@@ -24,3 +38,17 @@ colors:
     magenta: '#AE81FF'
     cyan:    '#66D9EF'
     white:   '#F8F8F2'
+
+background_opacity: 0.95
+window:
+  startup_mode: Maximized
+  decorations: none
+  padding:
+    x: 2
+    y: 2
+
+mouse:
+  hide_when_typing: true
+  url:
+    launcher: xdg-open
+
