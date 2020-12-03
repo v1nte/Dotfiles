@@ -1,9 +1,10 @@
-" Imports
-so ~/.vim/plugins.vim
-so ~/.vim/plugins-config.vim
-
 " Leader Key
 let mapleader=" " 
+
+" imports
+so ~/.config/nvim/plugins.vim
+so ~/.config/nvim/plugins-conf.vim
+
 
 set encoding=UTF-8
 set mouse=a 
@@ -40,12 +41,22 @@ nmap <C-j> <C-w>j
 nmap <C-k> <C-w>k
 nmap <C-l> <C-w>l
 
+" Resizes
+nnoremap <Leader>= :exe 'vertical resize +5'<CR>
+nnoremap <Leader>- :exe 'vertical resize -5'<CR>
 
-colorscheme gruvbox
-
+" Copy to clipboard
+nnoremap <leader><space> :nohlsearch<CR>
+nnoremap <leader>y "+y
+vnoremap <leader>y "+y
+nnoremap <leader>Y ggVG"+y
 
 " Themes
 let g:gruvbox_constrast_dark="hard"
 set background=dark
 let g:gruvbox_guisp_fallback = "bg"
 colo gruvbox
+
+
+" let ayucolor='mirage'
+" colorscheme ayu
