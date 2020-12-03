@@ -80,6 +80,9 @@ mkcdir() {
     mkdir "$1" && cd "$1"
 }
 
+gclone() {
+    git clone $1 ~/Workspaces/$2
+}
 
 ex () {
     if [ -f $1 ] ; then
