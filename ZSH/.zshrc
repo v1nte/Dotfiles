@@ -73,7 +73,6 @@ HIST_STAMPS="dd/mm/yyyy"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-# Commands
 source $ZSH/oh-my-zsh.sh
 
 mkcdir() {
@@ -83,6 +82,7 @@ mkcdir() {
 gclone() {
     git clone $1 ~/Workspaces/$2
 }
+
 
 ex () {
     if [ -f $1 ] ; then
@@ -117,6 +117,9 @@ alias ls='natls --gdf -ln'
 alias alacritty='nvim ~/.config/alacritty/alacritty.yml'
 alias supdate='sudo apt update && sudo apt upgrade -y'
 alias clean='sudo apt autoremove -y'
-alias sudi='sudo apt install'
+alias sudi='sudo apt nstall'
+alias cat='batcat'
+alias py='python3'
 
-
+figlet Hi, There
+neofetch

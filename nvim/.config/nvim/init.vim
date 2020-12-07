@@ -60,3 +60,4 @@ colo gruvbox
 
 " let ayucolor='mirage'
 " colorscheme ayu
+
