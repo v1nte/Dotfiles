@@ -111,10 +111,10 @@ ex () {
 
 # Alias
 alias vim='nvim'
-alias zshrc='nvim ~/.zshrc'
-alias vimrc='nvim ~/.config/nvim/init.vim'
+alias zshrc='nvim ~/Dotfiles/ZSH/.zshrc'
+alias vimrc='nvim ~/Dotfiles/nvim/.config/nvim/init.vim'
 alias ls='natls --gdf -ln'
-alias alacritty='nvim ~/.config/alacritty/alacritty.yml'
+alias alacritty='nvim ~/Dotfiles/alacritty/.config/alacritty/alacritty.yml'
 alias supdate='sudo apt update && sudo apt upgrade -y'
 alias clean='sudo apt autoremove -y'
 alias sudi='sudo apt nstall'
