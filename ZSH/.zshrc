@@ -117,7 +117,7 @@ alias ls='natls --gdf -ln'
 alias alacritty='nvim ~/Dotfiles/alacritty/.config/alacritty/alacritty.yml'
 alias supdate='sudo apt update && sudo apt upgrade -y'
 alias clean='sudo apt autoremove -y'
-alias sudi='sudo apt nstall'
+alias sudi='sudo apt install'
 alias cat='batcat'
 alias py='python3'
 
