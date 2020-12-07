@@ -3,7 +3,7 @@ let mapleader=" "
 
 " imports
 so ~/.config/nvim/plugins.vim
-so ~/.config/nvim/plugins-conf.vim
+so ~/.config/nvim/plugins-config.vim
 
 
 set encoding=UTF-8
