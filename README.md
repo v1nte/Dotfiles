@@ -3,4 +3,6 @@ These are my personal dotfiles configurations
 
 ## Install
 for now just do
-```stow ZSH alacritty nvim```
+```bash
+stow ZSH alacritty nvim
+```
