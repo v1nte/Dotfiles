@@ -2,4 +2,5 @@
 These are my personal dotfiles configurations
 
 ## Install
-soon..
+for now just do
+```stow ZSH alacritty nvim```
