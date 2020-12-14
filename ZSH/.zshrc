@@ -13,6 +13,7 @@ export TERM=xterm-256color
 ZSH_THEME="agnoster"
 # DEFAULT_USER='v1nte'
 
+
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
 # a theme from this variable instead of looking in $ZSH/themes/
@@ -80,7 +81,8 @@ mkcdir() {
 }
 
 gclone() {
-    git clone $1 ~/Workspaces/$2
+    # Credits to Luke Smith
+    git clone $1 ~/Workspaces/"${1#*//*/*/*}"
 }
 
 
