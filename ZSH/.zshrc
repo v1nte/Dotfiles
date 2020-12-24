@@ -120,7 +120,7 @@ alias alacritty='nvim ~/Dotfiles/alacritty/.config/alacritty/alacritty.yml'
 alias supdate='sudo apt update && sudo apt upgrade -y'
 alias clean='sudo apt autoremove -y'
 alias sudi='sudo apt install'
-alias cat='batcat'
+alias bcat='batcat'
 alias py='python3'
 
 figlet Hi, There
