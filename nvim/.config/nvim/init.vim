@@ -17,6 +17,7 @@ set mouse=a
 set showmatch
 set incsearch
 set hlsearch
+set magic	
 
 "Visual setup
 syntax enable
