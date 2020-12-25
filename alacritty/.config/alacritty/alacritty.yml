@@ -1,3 +1,6 @@
+env:
+  TERM: xterm-256color
+
 font:
   size: 13
   normal:
@@ -44,8 +47,8 @@ window:
   startup_mode: Maximized
   decorations: none
   padding:
-    x: 2
-    y: 2
+    x: 4
+    y: 4
 
 mouse:
   hide_when_typing: true
