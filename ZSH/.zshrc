@@ -155,6 +155,7 @@ alias clean='sudo apt autoremove -y'
 alias sudi='sudo apt install'
 alias bcat='batcat'
 alias py='python3'
+alias gtree='git log --oneline --decorate --all --graph'
 
 figlet Hi, There
 neofetch
