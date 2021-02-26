@@ -15,6 +15,7 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'yuezk/vim-js'
 Plug 'tpope/vim-commentary'
 Plug 'lervag/vimtex'
+Plug 'Yggdroot/indentLine'
 
 " My Plugins
 Plug 'v1nte/vim-pop'
