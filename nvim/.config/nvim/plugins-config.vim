@@ -36,6 +36,7 @@ nmap <silent>gr <Plug>(coc-references)
 
 nmap <Leader>e :NERDTreeFind<CR>
 
+let g:closetag_filenames = '*.html,*.js,*.jsx,*.ts,*.tsx'
 
 " Vim-airline
 " let g:airline_powerline_font = 1

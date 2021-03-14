@@ -16,6 +16,8 @@ Plug 'yuezk/vim-js'
 Plug 'tpope/vim-commentary'
 Plug 'lervag/vimtex'
 Plug 'Yggdroot/indentLine'
+Plug 'sheerun/vim-polyglot'
+Plug 'alvan/vim-closetag'
 
 " My Plugins
 Plug 'v1nte/vim-pop'
